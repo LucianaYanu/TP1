@@ -1,0 +1,49 @@
+.primer-texto{
+    width: 600px;
+    word-wrap: normal;
+}
+
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
+
+}
+
+  .carousel-caption{
+    bottom: 10vh !important;
+    height: 40vh;
+    font-size: 30px;
+  }
+
+  .botones button{
+    font-size: 20px;
+  }
+
+  @media (max-width:845px) and (min-width:395) {
+    .carousel{
+      margin-top:20px;
+    }
+  }
+  @media (max-width:395px) {
+    .carousel{
+      margin-top:40px;
+    }
+  }
+
+  .text{
+    bottom: 10px;
+    color: white;
+    
+  }
+
+  @media (min-width: 574px){
+    .playita{
+      display: flex;
+      flex-direction: row;
+    }
+  }
