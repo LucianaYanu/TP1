@@ -14,6 +14,27 @@
 
 }
 
+svg{
+  color: white;
+}
+
+@media (max-width:620px){
+  .carousel-inner div img{
+    height: 700px;
+    width: auto !important;
+  }
+
+  .desktop h1{
+    font-size: 35px !important;
+  }
+  .desktop p{
+    font-size: 25px !important;
+  }
+  .desktop button{
+    font-size: 25px !important;
+  }
+}
+
   .carousel-caption{
     bottom: 10vh !important;
     height: 40vh;
